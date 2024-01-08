@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      # Check Python version
-      - name: Check which Python version is installed
-        run: python -V
+      # Run flake8
+      - name: Check Python codebase for errors
+        run: flake8 dummy_action.yml
