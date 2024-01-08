@@ -35,6 +35,10 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       
+      # Install flake8 for Python
+      - name: Install flake8
+        run: python -m pip install flake8  
+      
       # Run flake8 help
       - name: Explore flake8 functionality
         run: flake8 --help
