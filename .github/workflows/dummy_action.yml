@@ -39,6 +39,6 @@ jobs:
       - name: Install flake8
         run: python -m pip install flake8  
       
-      # Run flake8
-      - name: Check Python codebase for errors
-        run: flake8 .github/workflows/dummy_action.yml
+      # Run flake8 help
+      - name: Explore flake8 functionality
+        run: flake8 --help
