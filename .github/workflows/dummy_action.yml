@@ -41,4 +41,4 @@ jobs:
       
       # Run flake8
       - name: Check Python codebase for errors
-        run: flake8 dummy_action.yml
+        run: flake8 .github/workflows/dummy_action.yml
